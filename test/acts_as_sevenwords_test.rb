@@ -15,7 +15,7 @@ class ActsAsSevenwordsTest < Test::Unit::TestCase
   def test_hickwalls_squawk_should_populate_last_squawk
     hickwall = Hickwall.new
     hickwall.squawk("Hello World")
-    assert_equal "How are you? Hello World", hickwall.last_squawk
+    assert_equal "How are you doing today? I'm well.", hickwall.last_squawk
   end
  
   def test_wickwalls_squawk_should_populate_last_tweet

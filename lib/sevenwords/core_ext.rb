@@ -2,6 +2,6 @@
  
 String.class_eval do
   def to_squawk
-    "squawk! #{self}".strip
+    "How are you doing today? I'm well. #{self}".strip
   end
 end

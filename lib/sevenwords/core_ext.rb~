@@ -1,4 +1,4 @@
-# Sevenwords/lib/Sevenwords/core_ext.rb
+# Sevenwords/lib/sevenwords/core_ext.rb
  
 String.class_eval do
   def to_squawk
