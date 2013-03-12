@@ -1,0 +1,6 @@
+# Sevenwords/lib/Sevenwords.rb
+
+require "sevenwords/core_ext"
+
+module Sevenwords
+end
